@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 
 const Expense = require("./models/Expense");
-const Income = require("./models/Income");
+// const Income = require("./models/Income");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
