@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-/* ---------- UI STYLES ---------- */
 
 const primaryBlue = "#2563eb";
 
@@ -42,7 +41,7 @@ const buttonPrimary = {
     cursor: "pointer",
 };
 
-/* ---------- COMPONENT ---------- */
+
 
 function Home() {
     const navigate = useNavigate();
@@ -85,12 +84,11 @@ function Home() {
 
     return (
         <div style={pageStyle}>
-            {/* HEADER */}
             <h1 style={{ fontSize: "28px", marginBottom: "6px" }}>
-                Monthly Overview
+                Enter Your Financial Details
             </h1>
             <p style={{ color: "#64748b", marginBottom: "28px" }}>
-                Enter your income and monthly expenses
+                Monthly Overview
             </p>
 
             {/* INCOME CARD */}
@@ -117,7 +115,7 @@ function Home() {
                         </label>
                         <input
                             type="number"
-                            placeholder={`₹ ${cat}`}
+                            placeholder={`₹`}
                             value={categoryExpenses[cat]}
                             onChange={(e) =>
                                 setCategoryExpenses({
@@ -131,7 +129,7 @@ function Home() {
                 ))}
 
                 <button onClick={saveAll} style={buttonPrimary}>
-                    Calculate & View Insights →
+                    Calculate
                 </button>
             </div>
         </div>

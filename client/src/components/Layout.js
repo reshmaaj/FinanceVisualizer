@@ -22,7 +22,7 @@ export default function Layout({ children }) {
 
             {/* SIDEBAR */}
             <aside style={sidebarStyle}>
-                <h2 style={{ color: "#38bdf8" }}>Finance</h2>
+                <h2 style={{ color: "#38bdf8" }}>FinViz</h2>
 
                 <NavLink
                     to="/"
@@ -31,7 +31,7 @@ export default function Layout({ children }) {
                         background: isActive ? "#1e293b" : "transparent"
                     })}
                 >
-                    🏠 Home
+                    Home
                 </NavLink>
 
                 <NavLink
@@ -41,7 +41,7 @@ export default function Layout({ children }) {
                         background: isActive ? "#1e293b" : "transparent"
                     })}
                 >
-                    📊 Insights
+                Insights
                 </NavLink>
             </aside>
 

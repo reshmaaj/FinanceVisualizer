@@ -96,7 +96,7 @@ function Insights() {
     return (
         <div style={page}>
             <div style={container}>
-                <h1 style={{ textAlign: "center" }}>Financial Insights</h1>
+                <h1 style={{ textAlign: "center" }}>Insights Dashboard</h1>
                 <p
                     style={{
                         textAlign: "center",
@@ -129,7 +129,7 @@ function Insights() {
                 <div style={{ ...grid, marginTop: "32px" }}>
                     {/* PIE CHART */}
                     <div style={card}>
-                        <h3>Expense Distribution</h3>
+                        <h3>Expense Insights</h3>
                         <PieChart width={280} height={280}>
                             <Pie
                                 data={categoryData}
