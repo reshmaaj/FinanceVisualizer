@@ -3,11 +3,9 @@
 Finance Visualizer is a **personal finance tracking web application** I built while learning full-stack development using the **MERN stack**.  
 The idea behind this project was to move beyond tutorials and actually build something that connects the frontend, backend, and database together in a meaningful way.
 
-The app helps users understand where their money goes by turning raw numbers into **clear visual insights**.
-
 ---
 
-## ✨ Features
+## Features
 
 - Enter and store **monthly income**
 - Add and manage **expenses by category**
@@ -19,7 +17,7 @@ The app helps users understand where their money goes by turning raw numbers int
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Frontend**
 - React.js
@@ -38,38 +36,22 @@ The app helps users understand where their money goes by turning raw numbers int
 
 ---
 
-## 🔗 API Endpoints
-
-### Income
-- `GET /income` – Fetch stored income  
-- `POST /income` – Add or update income  
-
-### Expenses
-- `GET /expenses` – Fetch all expenses  
-- `POST /expenses` – Add a new expense  
-- `PUT /expenses/:id` – Update an expense  
-- `DELETE /expenses/:id` – Delete an expense  
-
----
-
-## 🧠 What I Learned
+## What I Learned
 
 - How **React communicates with a Node/Express backend**
 - Connecting a frontend app to **MongoDB Atlas**
 - Designing and consuming **REST APIs**
 - Managing application state and dynamic UI updates
 - Handling environment variables and backend configuration
-- Debugging real-world full-stack issues
 - Converting financial data into **useful visual insights**
 
 This project gave me confidence in building a **complete MERN stack application from scratch**.
 
 ---
 
-## ⚙️ Running the Project Locally
+## 🚀 Future Improvements
 
-### Backend
-```bash
-cd backend
-npm install
-node server.js
+- User authentication
+- Budget limits and alerts
+- Weekly and yearly analytics
+- Export data as CSV or PDF
