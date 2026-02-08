@@ -54,4 +54,3 @@ This project gave me confidence in building a **complete MERN stack application 
 - User authentication
 - Budget limits and alerts
 - Weekly and yearly analytics
-- Export data as CSV or PDF
