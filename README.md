@@ -1,4 +1,4 @@
-# 💰 Finance Visualizer (MERN Stack)
+# 💰 Finance Visualizer
 
 Finance Visualizer is a **personal finance tracking web application** I built while learning full-stack development using the **MERN stack**.  
 The idea behind this project was to move beyond tutorials and actually build something that connects the frontend, backend, and database together in a meaningful way.
@@ -49,7 +49,7 @@ This project gave me confidence in building a **complete MERN stack application 
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - User authentication
 - Budget limits and alerts
