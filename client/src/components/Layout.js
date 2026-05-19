@@ -41,7 +41,17 @@ export default function Layout({ children }) {
                         background: isActive ? "#1e293b" : "transparent"
                     })}
                 >
-                Insights
+                    Insights
+                </NavLink>
+
+                <NavLink
+                    to="/insights"
+                    style={({ isActive }) => ({
+                        ...linkStyle,
+                        background: isActive ? "#1e293b" : "transparent"
+                    })}
+                >
+                    Profile
                 </NavLink>
             </aside>
 
